@@ -2,8 +2,8 @@
 
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
-import icon from '../img/icon.svg'
-import iconOk from '../img/ok-icon.svg'
+import icon from '../img/icon.svg';
+import iconOk from '../img/ok-icon.svg';
 
 const form = document.querySelector('form');
 

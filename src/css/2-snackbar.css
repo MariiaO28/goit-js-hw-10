@@ -2,7 +2,6 @@ ul, ol {
     list-style: none;
 }
 
-
 input {
     margin: 0;
     box-sizing: border-box;
@@ -94,6 +93,7 @@ button[type="submit"] {
     background-color: #4E75FF;
     border: 1px solid transparent;
     border-radius: 8px;
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
