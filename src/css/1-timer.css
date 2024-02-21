@@ -1,4 +1,4 @@
-input {
+input[type="text"] {
     box-sizing: content-box;
     width: 272px;
     max-height: 40px;
