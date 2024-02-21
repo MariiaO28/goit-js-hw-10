@@ -1,3 +1,7 @@
+ul, ol {
+    list-style: none;
+}
+
 input[type="text"] {
     box-sizing: content-box;
     width: 272px;
@@ -40,6 +44,7 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
     color: #FFFFFF;
     border: 1px solid transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);

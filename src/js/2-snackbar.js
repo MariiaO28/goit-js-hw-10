@@ -2,6 +2,8 @@
 
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
+import icon from '../img/icon.svg'
+import iconOk from '../img/ok-icon.svg'
 
 const form = document.querySelector('form');
 
@@ -28,7 +30,7 @@ function handleSubmit(event) {
     createPromise(delay, state)
         .then((delay) => {
             iziToast.success({
-                iconUrl: '../img/ok-icon.svg',
+                iconUrl: iconOk,
                 message: `Fulfilled promise in ${delay}ms`,
                 messageColor: '#FFFFFF',
                 color: '#59A10D',
@@ -38,7 +40,7 @@ function handleSubmit(event) {
         })
         .catch((delay) => {
             iziToast.error({
-                iconUrl: '../img/icon.svg',
+                iconUrl: icon,
                 message: `Rejected promise in ${delay}ms`,
                 messageColor: '#FFFFFF',
                 color: '#B51B1B',
